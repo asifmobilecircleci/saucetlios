@@ -1,6 +1,8 @@
 apiVersion: v1alpha
 kind: xcuitest
 sauce:
+  username: oauth-asifbillionbus786-7d468
+  accessKey: 4a919a9f-cea3-48cc-b58b-645ab4442d7e
   region: us-west-1
   concurrency: 3
   metadata:
