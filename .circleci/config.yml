@@ -6,6 +6,9 @@ jobs:
   build-for-rdc:
     macos:
       xcode: "14.2"
+    environment:
+      SAUCE_USERNAME: "oauth-asifbillionbus786-7d468"
+      SAUCE_ACCESS_KEY: "4a919a9f-cea3-48cc-b58b-645ab4442d7e"
     steps:
       - checkout
       - run:
